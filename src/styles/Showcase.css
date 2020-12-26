@@ -1,0 +1,32 @@
+.showcase{
+  padding: 10px ;
+  max-height: 400px;
+}
+
+.showcase-content img{
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.showcase-content{
+  height: 100%;
+  background-color: rgba(64, 64, 64, 0.3);
+  border-radius: 15px;
+}
+
+.showcase-info{
+  /* background-color: rgba(64, 64, 64, 0.1); */
+  color:  #fff;
+  border-radius: 15px;
+  padding: 70px 0;
+  border-top: 2px solid #262626;
+  border-bottom: 2px solid #262626;
+  height: 100%;
+}
+
+.showcase-info a{
+  margin-top: 10px;
+}

@@ -1,0 +1,16 @@
+.feature-card{
+  width: 200px;
+  text-align: center;
+}
+
+.feature-card-icon{
+  padding: 10px;
+}
+
+.feature-card-icon i{
+  color:  #707070;
+}
+
+.feature-card-body p{
+  font-size: small;
+}

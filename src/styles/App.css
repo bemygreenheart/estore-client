@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.main-color{
+  color: #262626;
+}
+
+.main-link{
+  text-decoration: none;
+  color: #404040;
+}
+
+.main-link:hover{
+  color: #f4313b;
+}
+
+

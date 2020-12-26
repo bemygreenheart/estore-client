@@ -1,0 +1,55 @@
+.header-top{
+  border-bottom: 1px solid #e1e1e1;
+  padding: 10px 0;
+}
+
+.header-link{
+  text-decoration: none;
+  color: #404040;
+}
+
+.language-menu{
+  display: none;
+  border-top: 2px solid #404040;
+  background-color: rgba(64, 64, 64, 0.3);
+  margin-top: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.language-dropdown{
+  position: relative;
+}
+
+.language-item{
+  padding-bottom: 5px;
+  transition: 0.3s;
+}
+
+.language-item:hover{
+  padding-top: 5px;
+  background-color: rgba(64, 64, 64, 0.8);
+  color: #fff;
+}
+
+.main-searchbar{
+  min-width: 88%;
+}
+
+.menu-button{
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px){
+  .optional{
+    display: none;
+  }
+}
+
+.menu-button:hover{
+  color: #f4313b;
+}

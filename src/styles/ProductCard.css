@@ -1,0 +1,37 @@
+.product-card{
+  border-radius: 7px;
+  box-shadow: 2px 3px #ddd ;
+}
+
+.product-card:hover{
+  filter: brightness(110%);
+  box-shadow: 5px 10px #ddd ;
+}
+
+.product-card-image img{
+  width: 150px;
+  height: 200px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.product-card-price{
+  display: flex;
+}
+
+.product-card-info p{
+  margin: 0;
+}
+
+.product-card-price p{
+  padding-right: 15px;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1200px){
+.product-card-image img{
+  width: 250px;
+  height: 300px;
+  }
+
+}
