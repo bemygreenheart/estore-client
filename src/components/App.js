@@ -4,6 +4,7 @@ import {Router, Route} from 'react-router-dom';
 import history from '../history';
 import "../styles/App.css";
 import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 
 class App extends React.Component{
 
@@ -11,7 +12,7 @@ class App extends React.Component{
     return (
       <div className="main">
         <Router history = {history}>
-          <Route path="/" exact component={HomePage}></Route>
+          <Route path="/" exact component={AboutPage}></Route>
           {/* <Route path="/items/:id" component={List}></Route>
           <Route path="/items/" component={List}></Route>
           <Route path="/auth/login"></Route>

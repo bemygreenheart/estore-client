@@ -1,0 +1,82 @@
+.about-showcase img{
+  width: 100%;
+  height: auto;
+}
+.about-showcase {
+  position: relative;
+}
+
+.about-showcase-info{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+
+  text-align: center;
+  color: #fff;
+}
+
+.about-info{
+  line-height: 1.7;
+}
+
+/* About philosophy */
+.about-philosophy{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.about-philosophy h6{
+  margin-top: 30px;
+}
+
+.about-philosophy img{
+  width: 100%;
+  height: auto;
+}
+
+.about-payment {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  padding: 5px 0;
+}
+
+.about-payment-img{
+  height: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin: 0 10px;
+}
+
+.about-payment-img:hover{
+  background-color:  #f6f6f6;
+  box-shadow: 5px 5px 0 0 #ccc;
+  margin-top: -5px;
+}
+
+.about-payment-img img{
+  height: 100%;
+  width: auto;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  .about-showcase-info{
+    top: 0;
+  }
+  .about-payment-img{
+    height: 35px;
+  }
+}
+
+.flex-center-div{
+  display: flex ;
+  justify-content: center;
+}
+
+.about-brands img{
+  width: 100%;
+}

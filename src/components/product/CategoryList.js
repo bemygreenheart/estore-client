@@ -9,10 +9,11 @@ import '../../styles/CategoryList.css';
 const CategoryList = (props)=>{
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed : 400,
     slidesToShow : 4,
     arrows: false,
+    autoplay: true
     
   }
 

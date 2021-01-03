@@ -13,4 +13,21 @@
   color: #f4313b;
 }
 
+.my-red{
+  color: #f4313b;
+}
 
+.my-btn{
+  display: inline-block;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 10px 75px;
+  color: #f4f4f4;
+  background: rgba(244, 49, 59, 0.8);
+}
+
+.my-btn:hover{
+  color: #fff;
+  background: rgba(244, 49, 59, 1);
+}
